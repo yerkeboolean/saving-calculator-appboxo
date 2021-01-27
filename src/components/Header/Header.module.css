@@ -1,0 +1,19 @@
+.Header {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  align-items: center;
+  margin: 20px 0 40px;
+}
+.controls {
+  cursor: pointer;
+}
+.text {
+  color: #2f80ed;
+  font-size: 18px;
+}
+.hidden {
+  visibility: hidden;
+}
+.Header > div {
+  justify-self: center;
+}
